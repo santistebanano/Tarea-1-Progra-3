@@ -16,7 +16,7 @@ public class lineChart {
         String line = "";
 
         try {
-
+            System.out.println("Prueba");
             reader = new BufferedReader(new FileReader(file));
             while((line = reader.readLine()) != null){
                 String[] row = line.split(",");
